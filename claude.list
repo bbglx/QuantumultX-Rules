@@ -2,13 +2,13 @@
 # Updated: 2026-06-03
 
 # > Anthropic / Claude 核心域名
-HOST-SUFFIX,anthropic.com
-HOST-SUFFIX,claude.ai
-HOST-SUFFIX,claude.com
-HOST-SUFFIX,clau.de
-HOST-SUFFIX,claudemcpclient.com
-HOST-SUFFIX,claudemcpcontent.com
-HOST-SUFFIX,claudeusercontent.com
+HOST-SUFFIX,anthropic.com,Claude
+HOST-SUFFIX,claude.ai,Claude
+HOST-SUFFIX,claude.com,Claude
+HOST-SUFFIX,clau.de,Claude
+HOST-SUFFIX,claudemcpclient.com,Claude
+HOST-SUFFIX,claudemcpcontent.com,Claude
+HOST-SUFFIX,claudeusercontent.com,Claude
 
 # > CDN 和静态资源
 HOST,servd-anthropic-website.b-cdn.net

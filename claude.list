@@ -1,0 +1,35 @@
+# Title: Claude / Anthropic 分流规则集
+# Updated: 2026-06-03
+
+# > Anthropic / Claude 核心域名
+HOST-SUFFIX,anthropic.com
+HOST-SUFFIX,claude.ai
+HOST-SUFFIX,claude.com
+HOST-SUFFIX,clau.de
+HOST-SUFFIX,claudemcpclient.com
+HOST-SUFFIX,claudemcpcontent.com
+HOST-SUFFIX,claudeusercontent.com
+
+# > CDN 和静态资源
+HOST,servd-anthropic-website.b-cdn.net
+HOST,anthropic.com.cdn.cloudflare.net
+
+# > 认证 / 内容
+HOST,://auth0.com
+HOST,anthropic-com.ghost.io
+
+# > 监控和遥测
+HOST-SUFFIX,sentry.io
+HOST-SUFFIX,statsigapi.net
+HOST,browser-intake-us5-datadoghq.com
+HOST-KEYWORD,datadog
+HOST-KEYWORD,sift
+
+# > 客服 / 第三方 widget
+HOST-SUFFIX,intercom.io
+HOST-SUFFIX,intercomcdn.com
+HOST,://usefathom.com
+
+# > IP 段
+IP-CIDR,160.79.104.0/21
+IP-CIDR6,2607:6bc0::/32

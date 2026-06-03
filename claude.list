@@ -15,7 +15,7 @@ HOST,servd-anthropic-website.b-cdn.net,Claude
 HOST,anthropic.com.cdn.cloudflare.net,Claude
 
 # > 认证 / 内容
-HOST,://auth0.com,Claude
+HOST,auth0.com,Claude
 HOST,anthropic-com.ghost.io,Claude
 
 # > 监控和遥测
@@ -28,7 +28,7 @@ HOST-KEYWORD,sift,Claude
 # > 客服 / 第三方 widget
 HOST-SUFFIX,intercom.io,Claude
 HOST-SUFFIX,intercomcdn.com,Claude
-HOST,://usefathom.com,Claude
+HOST,usefathom.com,Claude
 
 # > IP 段
 IP-CIDR,160.79.104.0/21,Claude
